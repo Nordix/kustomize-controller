@@ -4,5 +4,5 @@ resources:
   - deployment.yaml
 images:
   - name: fluxcd/kustomize-controller
-    newName: fluxcd/kustomize-controller
-    newTag: v1.7.3
+    newName: registry.nordix.org/allies/kustomize-controller
+    newTag: v1.7.3-est-1
