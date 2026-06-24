@@ -613,7 +613,7 @@ func applyGitRepository(objKey client.ObjectKey, artifactName string, revision s
 				Reason:             sourcev1.GitOperationSucceedReason,
 			},
 		},
-		Artifact: &sourcev1.Artifact{
+		Artifact: &meta.Artifact{
 			Path:           url,
 			URL:            url,
 			Revision:       revision,
